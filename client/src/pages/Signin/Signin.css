@@ -1,0 +1,135 @@
+.wrapperr{
+    width: 40rem;
+    max-width: 100%;
+    padding: 4.8rem 2.4rem;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.wrapperr .form-signup h3{
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family: Kanit;
+}
+.wrapperr .form-signup .form .form-group{
+   margin-bottom: 8px;
+}
+
+.ud-form-note {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.ud-form-label-tag, .ud-form-note {
+    color: #6a6f73;
+}
+
+.password-form-group--strength--1-2As {
+    display: flex;
+    align-items: center;
+  
+}
+.password-form-group--strength-indicators--Wzi8z {
+    display: flex;
+    align-items: center;
+    min-height: 1.6rem;
+    margin-right: 15px;
+}
+.password-form-group--strength-box--3haiQ {
+    background: #d1d7dc;
+    border-radius: 9999px;
+    height: 0.4rem;
+    width: 4.2rem;
+    margin-right: 2px;
+}
+/* check box */
+.m-popup-checkbox{
+    display: flex;
+}
+.m-input-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.helpers--terms-text--nU_vo{
+    color: #000;
+}
+.ud-link-underline{
+    color: #000;
+}
+
+.m-table-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.m-checkbox {
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    width: 30px;
+    height: 18px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    transition: all .2s ease;
+    display: block;
+    width: 35px;
+}
+
+.m-input-checkbox,
+.m-input-checkall {
+    position: absolute;
+    width: 10%;
+    opacity: 0;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.m-input-checkbox:checked+.m-checkbox,
+.m-input-checkall:checked+.m-checkbox {
+    background-color: #000;
+    color: #fff;
+}
+
+.m-icon-checkbox-active {
+    display: none;
+}
+
+.m-input-checkbox:checked+.m-checkbox>.m-checkbox-inner>.m-icon-checkbox-active,
+.m-input-checkall:checked+.m-checkbox>.m-checkbox-inner>.m-icon-checkbox-active {
+    display: block;
+}
+
+.m-checkbox-inner {
+    width: inherit;
+    height: inherit;
+}
+
+.m-input-checkbox-label{
+    margin-left: 5px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.4rem;
+    font-family: Kanit;
+
+}
+.wh-check{
+    width: 255px;
+}
+
+.input-data input{
+    font-family: Roboto;
+}
+
+.custom-background {
+    background-color: #000;
+  }

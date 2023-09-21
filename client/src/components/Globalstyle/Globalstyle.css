@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson:wght@700&family=Kanit:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Judson:wght@700&family=Kanit:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Kanit;
+    font-size: 1,6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    background-color: #fff;
+    width: 100%;
+}
+button{
+    font-family: kanit;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}

@@ -1,0 +1,62 @@
+
+.ctner-inpt{
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.ctner-inpt .ipt-main{
+    display: flex;
+}
+.ctner-inpt .ipt-main div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ipt-image{
+    border: 1px solid;
+    height: 165px;
+    margin-right: 10px;
+}
+.ipt-image input{
+   padding: 60px 10px 0 10px;
+}
+
+.ipns-ctainer input{
+    width: 280px;
+    height: 45px;
+    border: 1px solid #000;
+    padding-left: 15px;
+    font-family: kanit;
+    outline: none;
+}
+.ipns-ctainer select{
+    width: 280px;
+    height: 45px;
+    border: 1px solid #000;
+    font-family: kanit;
+    outline: none;
+}
+
+.btn-createe button{
+    height: 45px;
+    border: 1px solid #000;
+    background-color: transparent;
+    font-weight: 700;
+}
+.btn-createe button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.selected-image {
+    display: block;
+    max-width: 272px;
+    height: 164px;
+  }
+
+  .selected-video{
+    width: 100%;
+    height: 164px;
+  }

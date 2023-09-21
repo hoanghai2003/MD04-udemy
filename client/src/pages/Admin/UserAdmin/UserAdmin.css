@@ -1,0 +1,81 @@
+.conatiner-useradmin{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #d1d7dc;
+    position: sticky;
+    background-color: #fff;
+    z-index: 1;
+    top: 58px;
+}
+
+.conatiner-useradmin .useradmin{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #747774;
+}
+
+.iconusers{
+    padding: 14px 16px ;
+    border-radius: 3px;
+    border: 1px solid #d1d7dc;
+   background-color: #fff;
+}
+.iconusers i{
+   font-size: 15px;
+   color: #000;
+}
+
+.search-user{
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    height: 38px;
+}
+.search-user i{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.search-user input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: kanit;
+
+}
+
+.table-user{
+    padding: 20px;
+}
+.table-user table{
+    width: 100%;
+    border: 1px solid #d1d7dc;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #d1d7dc;
+    padding: 8px;
+    font-size: 15px;
+}
+.table-user table tbody tr td{
+    padding: 10px;
+
+}
+td:nth-child(1) {
+    width: 5%;
+    text-align: center;
+}
+td:nth-child(5) {
+    width: 20%;
+    text-align: center;
+}
+td:nth-child(4) {
+    text-align: center;
+}

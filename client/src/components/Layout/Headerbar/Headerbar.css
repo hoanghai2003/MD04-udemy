@@ -1,0 +1,98 @@
+
+
+.ctn-headerbar{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 4.8rem;
+}
+
+.img-banner img{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    object-position: initial;
+}
+
+.postt-headerbar{
+    position: relative;
+}
+
+.billboard-banner{
+    position: absolute;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+    padding: 2.4rem;
+    left: 7.2rem;
+    top: 6.4rem;
+    max-width: 44rem;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 440px;
+    height: 165px;
+}
+
+
+.heading-serif{
+    padding: 0;
+    font-size: 3.2rem;
+    margin-bottom: 0.8rem;
+    font-family:SuisseWorks,Georgia,Times,'Times New Roman',serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-size: 3.2rem;
+    line-height: 1.25;
+    letter-spacing: -.05rem;
+    max-width: 36em;
+}
+
+.text-md{
+    font-size: 1.9rem;
+    padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    max-width: 80rem;
+}
+
+.billboard-bannerr{
+    margin-top: 1.6rem;
+    flex: 1;
+    display: flex;
+}
+
+.m-navbar{
+    border-top: 1px solid #d1d7dc;
+    background-color: #fff;
+
+}
+.m-category{
+    height: 48px;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+
+}
+
+
+.m-category ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.m-category ul li{
+    list-style: none;
+}
+.m-category ul li a{
+    padding: 0.8rem 1.6rem;
+    height: 48px;
+    color: #1c1d1f;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.m-category ul li a:hover{
+ color: #5624d0;
+}
+

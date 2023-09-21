@@ -1,0 +1,35 @@
+.ufb-notice-module--notice-row--3xohg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.2rem 0;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+
+}
+.ud-heading-lg {
+    font-family: var(--font-stack-heading);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.9rem;
+    max-width: 34em;
+    flex: 1;
+    padding: 1.2rem 2.4rem -176.8rem 0;
+    min-width: 40rem;
+}
+
+.inverted-link {
+    color: #cec0fc;
+    font-weight: inherit;
+    text-decoration: none;
+}
+.ufb-notice-module--partner-logos--1YSF_ img:not(:last-child) {
+    margin-right: 2.4rem;
+}
+
+.ufb-notice-module--partner-logos--1YSF_ img {
+    margin: 1.2rem 0;
+    vertical-align: middle;
+}
